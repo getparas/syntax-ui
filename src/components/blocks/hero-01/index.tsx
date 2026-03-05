@@ -37,7 +37,7 @@ export default function AgencyHeroSection() {
     },
     {
       title: "Team",
-      href: "#",
+      href: "#team",
     },
     {
       title: "Pricing",
