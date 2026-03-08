@@ -1,7 +1,5 @@
 import type { BrandList } from "./brand-slider";
 import BrandSlider from "./brand-slider";
-import type { NavigationSection } from "./header";
-import Header from "./header";
 import type { AvatarList } from "./hero";
 import HeroSection from "./hero";
 
@@ -18,38 +16,6 @@ export default function AgencyHeroSection() {
     },
     {
       image: "https://images.shadcnspace.com/assets/profiles/user-5.jpg",
-    },
-  ];
-
-  const navigationData: NavigationSection[] = [
-    {
-      title: "Home",
-      href: "#",
-      isActive: true,
-    },
-    {
-      title: "About us",
-      href: "#aboutus",
-    },
-    {
-      title: "Services",
-      href: "#services",
-    },
-    {
-      title: "Team",
-      href: "#team",
-    },
-    {
-      title: "Pricing v1",
-      href: "#pricingv1",
-    },
-    {
-      title: "Pricing v2",
-      href: "#pricingv2",
-    },
-    {
-      title: "Testimonials",
-      href: "#testimonial",
     },
   ];
 
@@ -88,7 +54,6 @@ export default function AgencyHeroSection() {
 
   return (
     <div className="relative">
-      <Header navigationData={navigationData} />
       <main>
         <HeroSection avatarList={avatarList} />
         <BrandSlider brandList={brandList} />
