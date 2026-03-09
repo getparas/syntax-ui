@@ -7,6 +7,7 @@ import TestimonialPage from "@/components/blocks/testimonial-01/testimonial";
 import Header from "./components/blocks/hero-01/header";
 import { navigationData } from "./data/navigation-data";
 import Footer from "@/components/blocks/footer-01/footer";
+import Services from "@/components/blocks/services-01/services";
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
       <AboutAndStats01 />
       <Team />
       <TestimonialPage />
+      <Services />
       <PricingV1 />
       <PricingV2 />
       <Footer />
