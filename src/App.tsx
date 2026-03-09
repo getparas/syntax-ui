@@ -6,6 +6,7 @@ import Team from "@/components/blocks/team-01/team";
 import TestimonialPage from "@/components/blocks/testimonial-01/testimonial";
 import Header from "./components/blocks/hero-01/header";
 import { navigationData } from "./data/navigation-data";
+import Footer from "@/components/blocks/footer-01/footer";
 
 export function App() {
   return (
@@ -17,6 +18,7 @@ export function App() {
       <TestimonialPage />
       <PricingV1 />
       <PricingV2 />
+      <Footer />
     </>
   );
 }
