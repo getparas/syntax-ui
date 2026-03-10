@@ -71,7 +71,7 @@ const Services = () => {
   };
 
   return (
-    <section className="py-8 sm:py-16 lg:py-20" id="services">
+    <section className="py-8 sm:py-16 lg:py-20" id="services01">
       <div className="mx-auto max-w-7xl px-4 lg:px-8 xl:px-16">
         <div className="flex w-full flex-col items-center justify-center gap-8 sm:gap-16">
           {/*Headings*/}

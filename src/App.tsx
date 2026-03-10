@@ -3,7 +3,8 @@ import {
   Header,
   Pricing01,
   Pricing02,
-  Services,
+  Services01,
+  Services02,
   Team,
 } from "@/components/blocks";
 import AboutAndStats01 from "@/components/blocks/about-us-01";
@@ -19,7 +20,8 @@ export function App() {
       <AboutAndStats01 />
       <Team />
       <TestimonialPage />
-      <Services />
+      <Services01 />
+      <Services02 />
       <Pricing01 />
       <Pricing02 />
       <Footer />
