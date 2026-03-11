@@ -1,4 +1,5 @@
 import {
+  CTA,
   Footer,
   Header,
   Pricing01,
@@ -18,6 +19,7 @@ export function App() {
       <Header navigationData={navigationData} />
       <AgencyHeroSection />
       <AboutAndStats01 />
+      <CTA />
       <Team />
       <TestimonialPage />
       <Services01 />

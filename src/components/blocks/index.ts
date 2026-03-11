@@ -6,3 +6,4 @@ export { default as Pricing02 } from "./pricing-02/pricing";
 export { default as Footer } from "./footer-01/footer";
 export { default as Testimonials } from "./testimonial-01/index";
 export { default as Header } from "./hero-01/header";
+export { default as CTA } from "./cta-01/cta";
