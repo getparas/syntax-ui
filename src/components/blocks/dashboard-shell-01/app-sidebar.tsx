@@ -37,8 +37,7 @@ export function AppSidebar() {
 
   return (
     <Sidebar collapsible="icon" className="lg:border-r-0!">
-      {/* Header — logo mark + wordmark */}
-      <SidebarHeader className="border-b px-2 py-3">
+      <SidebarHeader className="px-2 py-2">
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton
@@ -64,7 +63,6 @@ export function AppSidebar() {
         </SidebarMenu>
       </SidebarHeader>
 
-      {/* Main navigation */}
       <SidebarContent className="px-2">
         <NavMain items={navMain} />
 
@@ -94,7 +92,6 @@ export function AppSidebar() {
         )}
       </SidebarContent>
 
-      {/* Footer navigation */}
       <SidebarFooter className="gap-0 px-2 pb-3">
         <SidebarSeparator className="mb-2" />
         <SidebarMenu>

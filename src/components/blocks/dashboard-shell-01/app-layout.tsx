@@ -10,7 +10,7 @@ export function AppLayout({ children }: Props) {
     <SidebarProvider>
       <AppSidebar />
 
-      <div className="flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col overflow-hidden lg:rounded-md lg:border">
         <header className="bg-background sticky top-0 z-50 flex items-center border-b px-6 py-3">
           <SiteHeader />
         </header>
